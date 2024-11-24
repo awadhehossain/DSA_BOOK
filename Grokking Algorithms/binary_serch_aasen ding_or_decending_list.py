@@ -27,10 +27,11 @@ def binary_search(arr, item):
     
     return None
 
-# Test the function
+# List must be a sorted list 
 ascending_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 descending_list = [9, 8, 7, 6, 5, 4, 3, 2, 1]
 
+# It gives the index number where the itme is located
 print(binary_search(ascending_list, 3))  # Output: 2
 print(binary_search(descending_list, 3))  # Output: 6
 print(binary_search(ascending_list, 5))  # Output: None
